@@ -1,52 +1,26 @@
-# Prerequisites
-*.d
+# STM32CubeIDE project files to ignore
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Build folders
+/Debug/
+/Release/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Project settings
+.settings/
+.vscode/
+.mxproject
 
-# Precompiled Headers
-*.gch
-*.pch
+# Debugger launch configurations
+*.launch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# STM32CubeIDE workspace metadata (optional)
+.metadata/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# OS-generated files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+*.DS_Store
+Thumbs.db
